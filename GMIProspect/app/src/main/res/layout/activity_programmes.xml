@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ScrollView xmlns:ns0="http://schemas.android.com/apk/res/android" ns0:id="@+id/programmesRoot" ns0:layout_width="match_parent" ns0:layout_height="match_parent" ns0:background="@color/page_background" ns0:fillViewport="true">
+    <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="vertical" ns0:padding="18dp">
+        <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="65dp" ns0:gravity="center_vertical" ns0:orientation="horizontal" ns0:background="@color/gmi_black" ns0:padding="10dp">
+            <ImageView ns0:layout_width="42dp" ns0:layout_height="42dp" ns0:background="@drawable/bg_logo_badge" ns0:padding="4dp" ns0:src="@drawable/gmi_logo" ns0:scaleType="fitCenter" ns0:contentDescription="@string/activity_programmes_contentDescription_1_contentdescription" />
+            <LinearLayout ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:orientation="vertical" ns0:layout_marginStart="10dp">
+                <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/activity_programmes_text_1_text" ns0:textColor="@color/gmi_white" ns0:textStyle="bold" ns0:textSize="15sp" />
+                <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/activity_programmes_text_2_text" ns0:textColor="#DDDDDD" ns0:textSize="9sp" />
+            </LinearLayout>
+            <TextView ns0:id="@+id/btnBack" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/activity_programmes_btnback_text" ns0:textColor="@color/gmi_white" ns0:textStyle="bold" ns0:textSize="14sp" ns0:padding="12dp" ns0:minWidth="65dp" ns0:gravity="center" ns0:clickable="true" ns0:focusable="true" ns0:background="?attr/selectableItemBackgroundBorderless" />
+        </LinearLayout>
+        <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="18dp" ns0:background="@drawable/bg_hero" ns0:orientation="vertical" ns0:padding="22dp">
+            <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/activity_programmes_text_3_text" ns0:textColor="#FFFFFF" ns0:textSize="11sp" ns0:textStyle="bold" />
+            <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="10dp" ns0:text="@string/activity_programmes_text_4_text" ns0:textColor="#FFFFFF" ns0:textSize="25sp" ns0:textStyle="bold" />
+            <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="8dp" ns0:text="@string/activity_programmes_text_5_text" ns0:textColor="#FFFFFF" ns0:textSize="13sp" />
+        </LinearLayout>
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="22dp" ns0:text="@string/activity_programmes_text_6_text" ns0:textColor="@color/gmi_red" ns0:textStyle="bold" ns0:textSize="18sp" />
+        <EditText ns0:id="@+id/etProgrammeSearch" ns0:layout_width="match_parent" ns0:layout_height="52dp" ns0:layout_marginTop="10dp" ns0:background="@drawable/bg_search_box" ns0:hint="@string/activity_programmes_etprogrammesearch_hint" ns0:padding="12dp" ns0:singleLine="true" ns0:inputType="text" ns0:textColor="@color/gmi_navy" ns0:textColorHint="@color/gmi_text_secondary" />
+        <HorizontalScrollView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="15dp" ns0:scrollbars="none">
+            <LinearLayout ns0:id="@+id/filterContainer" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:orientation="horizontal" />
+        </HorizontalScrollView>
+        <TextView ns0:id="@+id/tvProgrammeCount" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="20dp" ns0:textColor="@color/gmi_navy" ns0:textStyle="bold" ns0:textSize="15sp" />
+        <LinearLayout ns0:id="@+id/programmeContainer" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="12dp" ns0:orientation="vertical" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="25dp" ns0:padding="18dp" ns0:gravity="center" ns0:background="@color/gmi_black" ns0:text="@string/activity_programmes_text_7_text" ns0:textColor="@color/gmi_white" ns0:textSize="11sp" />
+    </LinearLayout>
+</ScrollView>

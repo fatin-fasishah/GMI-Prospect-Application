@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="site_cream">#F3DFAF</color>
+    <color name="gmi_black">#171717</color>
+    <color name="gmi_red">#C8102E</color>
+    <color name="gmi_white">#FFFFFF</color>
+    <color name="gmi_text_secondary">#667085</color>
+    <color name="page_background">#F5F6F8</color>
+    <color name="gmi_red_overlay">#D9C8102E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="card_border">#E5EAF0</color>
+    <color name="gmi_navy">#142B45</color>
+</resources>

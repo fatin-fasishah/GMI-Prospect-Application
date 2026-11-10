@@ -1,0 +1,112 @@
+<resources>
+
+    <string name="logo_text">GMI</string>
+    <string name="header_subtitle">GERMAN-MALAYSIAN INSTITUTE</string>
+    <string name="menu_label">MENU ☰</string>
+
+    <string name="hero_eyebrow">THE HEART OF SUCCESS</string>
+    <string name="home_title">YOUR FUTURE\nBEGINS WITH GMI</string>
+    <string name="home_description">Discover your potential, explore your interests and take the first step towards a successful future with GMI.</string>
+
+    <string name="campus_image_description">German-Malaysian Institute campus</string>
+    <string name="check_eligibility">Check Your Eligibility</string>
+
+    <string name="find_programme">FIND YOUR PROGRAMME</string>
+    <string name="search_hint">Search for a programme...</string>
+    <string name="view_all_programmes">View All Programmes</string>
+
+    <string name="pathways_title">EXPLORE OUR PROGRAMMES</string>
+    <string name="pathways_description">Choose your preferred educational pathway at GMI.</string>
+
+    <string name="diploma_icon">🎓</string>
+    <string name="diploma_card_title">DIPLOMA PROGRAMMES</string>
+    <string name="diploma_card_description">Explore engineering and technology courses.</string>
+
+    <string name="gapp_icon">🇩🇪</string>
+    <string name="gapp_card_title">GAPP PROGRAMME</string>
+    <string name="gapp_card_description">Prepare for university studies in Germany.</string>
+
+    <string name="gufp_icon">🚀</string>
+    <string name="gufp_card_title">GUFP PROGRAMME</string>
+    <string name="gufp_card_description">Foundation in Engineering and Science.</string>
+
+
+    <string name="about_gmi">About GMI</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="footer_text">German-Malaysian Institute | Kajang, Selangor</string>
+    <string name="app_name" />
+
+
+
+    <!-- Extracted layout text to avoid hardcoded XML strings. -->
+    <string name="activity_eligibility_text_1_text">GMI PROSPECT</string>
+    <string name="activity_eligibility_btneligibilityback_text">BACK ‹</string>
+    <string name="activity_eligibility_text_2_text">YOUR FUTURE STARTS HERE</string>
+    <string name="activity_eligibility_text_3_text">Check Your Eligibility</string>
+    <string name="activity_eligibility_text_4_text">Find out which GMI programmes may match your academic qualifications.</string>
+    <string name="activity_eligibility_text_5_text">YOUR QUALIFICATION</string>
+    <string name="activity_eligibility_tvlabelgapp_text">GAPP CANDIDATE TYPE</string>
+    <string name="activity_eligibility_text_6_text">ENTER YOUR SUBJECT GRADES</string>
+    <string name="activity_eligibility_text_7_text">Select the grade obtained for each subject. Leave unattempted subjects as Not taken.</string>
+    <string name="activity_eligibility_tvlabelbm_text">Bahasa Melayu</string>
+    <string name="activity_eligibility_text_8_text">English</string>
+    <string name="activity_eligibility_text_9_text">Mathematics</string>
+    <string name="activity_eligibility_text_10_text">Additional Mathematics</string>
+    <string name="activity_eligibility_text_11_text">Physics</string>
+    <string name="activity_eligibility_text_12_text">Chemistry</string>
+    <string name="activity_eligibility_text_13_text">Science / Technical Subject</string>
+    <string name="activity_eligibility_text_14_text">Other Subject 1</string>
+    <string name="activity_eligibility_text_15_text">Other Subject 2</string>
+    <string name="activity_eligibility_text_16_text">Other Subject 3</string>
+    <string name="activity_eligibility_text_17_text">Other Subject 4</string>
+    <string name="activity_eligibility_btncheckeligibility_text">CHECK MY ELIGIBILITY</string>
+    <string name="activity_eligibility_btnreseteligibility_text">RESET FORM</string>
+    <string name="activity_eligibility_tveligibilitysummary_text">Your matching programmes will appear here after checking.</string>
+    <string name="activity_eligibility_btnapplyonline_text">APPLY ONLINE AT GMI</string>
+    <string name="activity_eligibility_text_18_text">German-Malaysian Institute | Kajang, Selangor</string>
+    <string name="activity_main_contentDescription_1_contentdescription">GMI Logo</string>
+    <string name="activity_main_text_1_text">›</string>
+    <string name="activity_main_text_2_text">›</string>
+    <string name="activity_main_text_3_text">›</string>
+    <string name="activity_programme_details_btndetailsback_text">‹ BACK</string>
+    <string name="activity_programme_details_text_1_text">GMI PROSPECT</string>
+    <string name="activity_programme_details_text_2_text">PROGRAMME DETAILS</string>
+    <string name="activity_programme_details_tvdetailscategory_text">DIPLOMA PROGRAMME</string>
+    <string name="activity_programme_details_tvdetailstitle_text">Programme Name</string>
+    <string name="activity_programme_details_tvdetailsdepartment_text">Department</string>
+    <string name="activity_programme_details_text_3_text">ABOUT THIS PROGRAMME</string>
+    <string name="activity_programme_details_tvdetailsdescription_text">Programme overview</string>
+    <string name="activity_programme_details_text_4_text">◷ DURATION</string>
+    <string name="activity_programme_details_tvdetailsduration_text">3 Years</string>
+    <string name="activity_programme_details_text_5_text">RM TUITION FEES</string>
+    <string name="activity_programme_details_tvdetailsfee_text">RM33,324</string>
+    <string name="activity_programme_details_text_6_text">ENTRY REQUIREMENTS</string>
+    <string name="activity_programme_details_tvdetailsrequirements_text">Please refer to GMI official admission requirements.</string>
+    <string name="activity_programme_details_text_7_text">CAREER OPPORTUNITIES</string>
+    <string name="activity_programme_details_tvdetailscareers_text">Explore career pathways related to this programme.</string>
+    <string name="activity_programme_details_btnapplynow_text">APPLY NOW  →</string>
+    <string name="activity_programme_details_text_8_text">German-Malaysian Institute | Kajang, Selangor</string>
+    <string name="activity_programmes_contentDescription_1_contentdescription">GMI Logo</string>
+    <string name="activity_programmes_text_1_text">GMI PROSPECT</string>
+    <string name="activity_programmes_text_2_text">PROGRAMME CATALOGUE</string>
+    <string name="activity_programmes_btnback_text">BACK ‹</string>
+    <string name="activity_programmes_text_3_text">DISCOVER YOUR FUTURE</string>
+    <string name="activity_programmes_text_4_text">Explore Our Programmes</string>
+    <string name="activity_programmes_text_5_text">Find the right educational pathway to achieve your ambitions.</string>
+    <string name="activity_programmes_text_6_text">FIND YOUR PROGRAMME</string>
+    <string name="activity_programmes_etprogrammesearch_hint">Search course or department...</string>
+    <string name="activity_programmes_text_7_text">German-Malaysian Institute | Kajang, Selangor</string>
+    <string name="dialog_programme_details_tvdialogcategory_text">DIPLOMA PROGRAMME</string>
+    <string name="dialog_programme_details_tvdialogtitle_text">Programme Name</string>
+    <string name="dialog_programme_details_tvdialogdepartment_text">Department</string>
+    <string name="dialog_programme_details_text_1_text">ABOUT THIS PROGRAMME</string>
+    <string name="dialog_programme_details_tvdialogdescription_text">Programme description</string>
+    <string name="dialog_programme_details_text_2_text">◷  DURATION</string>
+    <string name="dialog_programme_details_tvdialogduration_text">3 Years</string>
+    <string name="dialog_programme_details_text_3_text">RM  FEES</string>
+    <string name="dialog_programme_details_tvdialogfee_text">RM33,324</string>
+    <string name="dialog_programme_details_text_4_text">Note: Please refer to GMI\'s official website for the latest programme information and fees.</string>
+    <string name="dialog_programme_details_btndialogclose_text">Close</string>
+    <string name="dialog_programme_details_btndialogwebsite_text">Official Website</string>
+
+</resources>

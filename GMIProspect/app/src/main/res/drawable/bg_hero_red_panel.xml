@@ -1,0 +1,12 @@
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="340dp"
+    android:height="240dp"
+    android:viewportWidth="340"
+    android:viewportHeight="240">
+
+    <path
+        android:fillColor="@color/gmi_red_overlay"
+        android:pathData="M0,0 H300 L340,120 L300,240 H0 Z"/>
+
+</vector>

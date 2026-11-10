@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ScrollView xmlns:ns0="http://schemas.android.com/apk/res/android" ns0:id="@+id/eligibilityRoot" ns0:layout_width="match_parent" ns0:layout_height="match_parent" ns0:background="#F3F5F8" ns0:fillViewport="true">
+    <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="vertical" ns0:padding="18dp">
+        <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="65dp" ns0:orientation="horizontal" ns0:gravity="center_vertical" ns0:background="#171717" ns0:padding="12dp">
+            <TextView ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:text="@string/activity_eligibility_text_1_text" ns0:textColor="#FFFFFF" ns0:textSize="18sp" ns0:textStyle="bold" />
+            <TextView ns0:id="@+id/btnEligibilityBack" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/activity_eligibility_btneligibilityback_text" ns0:textColor="#FFFFFF" ns0:textStyle="bold" ns0:padding="12dp" ns0:clickable="true" ns0:focusable="true" />
+        </LinearLayout>
+        <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="18dp" ns0:orientation="vertical" ns0:background="#142B45" ns0:padding="22dp">
+            <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/activity_eligibility_text_2_text" ns0:textColor="#FFFFFF" ns0:textStyle="bold" ns0:textSize="12sp" />
+            <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="10dp" ns0:text="@string/activity_eligibility_text_3_text" ns0:textColor="#FFFFFF" ns0:textSize="25sp" ns0:textStyle="bold" />
+            <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="8dp" ns0:text="@string/activity_eligibility_text_4_text" ns0:textColor="#FFFFFF" ns0:textSize="13sp" />
+        </LinearLayout>
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="22dp" ns0:text="@string/activity_eligibility_text_5_text" ns0:textColor="#C8102E" ns0:textSize="17sp" ns0:textStyle="bold" />
+        <Spinner ns0:id="@+id/spQualification" ns0:layout_width="match_parent" ns0:layout_height="52dp" ns0:layout_marginTop="8dp" ns0:background="#FFFFFF" ns0:padding="8dp" ns0:spinnerMode="dropdown" />
+        <TextView ns0:id="@+id/tvLabelGapp" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="16dp" ns0:text="@string/activity_eligibility_tvlabelgapp_text" ns0:textColor="#142B45" ns0:textStyle="bold" ns0:textSize="14sp" />
+        <Spinner ns0:id="@+id/spGappCandidate" ns0:layout_width="match_parent" ns0:layout_height="52dp" ns0:layout_marginTop="6dp" ns0:background="#FFFFFF" ns0:padding="8dp" ns0:spinnerMode="dropdown" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="24dp" ns0:text="@string/activity_eligibility_text_6_text" ns0:textColor="#C8102E" ns0:textSize="17sp" ns0:textStyle="bold" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="5dp" ns0:text="@string/activity_eligibility_text_7_text" ns0:textColor="#646464" ns0:textSize="12sp" />
+        <TextView ns0:id="@+id/tvGradeHint" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="6dp" ns0:textColor="#142B45" ns0:textSize="12sp" ns0:textStyle="italic" />
+        <TextView ns0:id="@+id/tvLabelBM" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="14dp" ns0:text="@string/activity_eligibility_tvlabelbm_text" ns0:textColor="#142B45" ns0:textStyle="bold" />
+        <Spinner ns0:id="@+id/spBM" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:background="#FFFFFF" ns0:padding="6dp" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="10dp" ns0:text="@string/activity_eligibility_text_8_text" ns0:textColor="#142B45" ns0:textStyle="bold" />
+        <Spinner ns0:id="@+id/spEnglish" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:background="#FFFFFF" ns0:padding="6dp" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="10dp" ns0:text="@string/activity_eligibility_text_9_text" ns0:textColor="#142B45" ns0:textStyle="bold" />
+        <Spinner ns0:id="@+id/spMath" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:background="#FFFFFF" ns0:padding="6dp" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="10dp" ns0:text="@string/activity_eligibility_text_10_text" ns0:textColor="#142B45" ns0:textStyle="bold" />
+        <Spinner ns0:id="@+id/spAddMath" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:background="#FFFFFF" ns0:padding="6dp" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="10dp" ns0:text="@string/activity_eligibility_text_11_text" ns0:textColor="#142B45" ns0:textStyle="bold" />
+        <Spinner ns0:id="@+id/spPhysics" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:background="#FFFFFF" ns0:padding="6dp" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="10dp" ns0:text="@string/activity_eligibility_text_12_text" ns0:textColor="#142B45" ns0:textStyle="bold" />
+        <Spinner ns0:id="@+id/spChemistry" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:background="#FFFFFF" ns0:padding="6dp" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="10dp" ns0:text="@string/activity_eligibility_text_13_text" ns0:textColor="#142B45" ns0:textStyle="bold" />
+        <Spinner ns0:id="@+id/spScienceTech" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:background="#FFFFFF" ns0:padding="6dp" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="10dp" ns0:text="@string/activity_eligibility_text_14_text" ns0:textColor="#142B45" ns0:textStyle="bold" />
+        <Spinner ns0:id="@+id/spOther1" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:background="#FFFFFF" ns0:padding="6dp" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="10dp" ns0:text="@string/activity_eligibility_text_15_text" ns0:textColor="#142B45" ns0:textStyle="bold" />
+        <Spinner ns0:id="@+id/spOther2" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:background="#FFFFFF" ns0:padding="6dp" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="10dp" ns0:text="@string/activity_eligibility_text_16_text" ns0:textColor="#142B45" ns0:textStyle="bold" />
+        <Spinner ns0:id="@+id/spOther3" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:background="#FFFFFF" ns0:padding="6dp" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="10dp" ns0:text="@string/activity_eligibility_text_17_text" ns0:textColor="#142B45" ns0:textStyle="bold" />
+        <Spinner ns0:id="@+id/spOther4" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:background="#FFFFFF" ns0:padding="6dp" />
+        <Button ns0:id="@+id/btnCheckEligibility" ns0:layout_width="match_parent" ns0:layout_height="55dp" ns0:layout_marginTop="22dp" ns0:text="@string/activity_eligibility_btncheckeligibility_text" ns0:textColor="#FFFFFF" ns0:textStyle="bold" ns0:backgroundTint="#C8102E" ns0:clickable="true" ns0:focusable="true" ns0:enabled="true" />
+        <Button ns0:id="@+id/btnResetEligibility" ns0:layout_width="match_parent" ns0:layout_height="50dp" ns0:layout_marginTop="8dp" ns0:text="@string/activity_eligibility_btnreseteligibility_text" ns0:textColor="#142B45" ns0:backgroundTint="#E1E6ED" />
+        <TextView ns0:id="@+id/tvEligibilitySummary" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="22dp" ns0:padding="14dp" ns0:background="#FFFFFF" ns0:text="@string/activity_eligibility_tveligibilitysummary_text" ns0:textColor="#142B45" ns0:textSize="14sp" />
+        <LinearLayout ns0:id="@+id/resultContainer" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="vertical" ns0:layout_marginTop="10dp" />
+        <Button ns0:id="@+id/btnApplyOnline" ns0:layout_width="match_parent" ns0:layout_height="55dp" ns0:layout_marginTop="18dp" ns0:text="@string/activity_eligibility_btnapplyonline_text" ns0:textColor="#FFFFFF" ns0:textStyle="bold" ns0:backgroundTint="#142B45" ns0:visibility="gone" />
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="24dp" ns0:padding="18dp" ns0:gravity="center" ns0:background="#171717" ns0:text="@string/activity_eligibility_text_18_text" ns0:textColor="#FFFFFF" ns0:textSize="11sp" />
+    </LinearLayout>
+</ScrollView>

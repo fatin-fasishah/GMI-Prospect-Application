@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ScrollView xmlns:ns0="http://schemas.android.com/apk/res/android" ns0:id="@+id/main" ns0:layout_width="match_parent" ns0:layout_height="match_parent" ns0:background="@color/site_cream" ns0:fillViewport="true">
+    <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_margin="10dp" ns0:orientation="vertical" ns0:background="@drawable/bg_site_container" ns0:clipToOutline="true">
+        <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="72dp" ns0:gravity="center_vertical" ns0:orientation="horizontal" ns0:paddingLeft="18dp" ns0:paddingRight="18dp" ns0:background="@color/gmi_black">
+            <ImageView ns0:layout_width="48dp" ns0:layout_height="48dp" ns0:background="@drawable/bg_logo" ns0:padding="6dp" ns0:src="@drawable/gmi_logo" ns0:scaleType="fitCenter" ns0:contentDescription="@string/activity_main_contentDescription_1_contentdescription" />
+            <LinearLayout ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:orientation="vertical" ns0:layout_marginStart="12dp">
+                <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/app_name" ns0:textColor="@color/gmi_white" ns0:textSize="18sp" ns0:textStyle="bold" />
+                <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/header_subtitle" ns0:textColor="#DDDDDD" ns0:textSize="10sp" />
+            </LinearLayout>
+            <TextView ns0:id="@+id/btnMenu" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/menu_label" ns0:textColor="@color/gmi_white" ns0:textStyle="bold" ns0:textSize="13sp" ns0:padding="8dp" />
+        </LinearLayout>
+        <FrameLayout ns0:layout_width="match_parent" ns0:layout_height="390dp">
+            <ImageView ns0:layout_width="match_parent" ns0:layout_height="match_parent" ns0:src="@drawable/gmi_campus" ns0:scaleType="centerCrop" ns0:contentDescription="@string/campus_image_description" />
+            <View ns0:layout_width="match_parent" ns0:layout_height="match_parent" ns0:background="@drawable/bg_hero_shade" />
+            <LinearLayout ns0:layout_width="310dp" ns0:layout_height="wrap_content" ns0:layout_gravity="center_vertical|start" ns0:background="@drawable/bg_hero_red_panel" ns0:gravity="center_vertical" ns0:orientation="vertical" ns0:padding="22dp">
+                <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/hero_eyebrow" ns0:textColor="@color/gmi_white" ns0:textSize="11sp" ns0:letterSpacing="0.12" ns0:textStyle="bold" />
+                <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="12dp" ns0:text="@string/home_title" ns0:textColor="@color/gmi_white" ns0:textSize="27sp" ns0:textStyle="bold" ns0:lineSpacingExtra="2dp" />
+                <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="12dp" ns0:text="@string/home_description" ns0:textColor="@color/gmi_white" ns0:textSize="12sp" ns0:lineSpacingExtra="4dp" />
+                <Button ns0:id="@+id/btnCheckEligibility" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:layout_marginTop="16dp" ns0:backgroundTint="@color/gmi_white" ns0:text="@string/check_eligibility" ns0:textColor="@color/gmi_red" ns0:textAllCaps="false" ns0:textStyle="bold" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="vertical" ns0:padding="22dp" ns0:background="@color/gmi_white">
+            <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:text="@string/find_programme" ns0:textColor="@color/gmi_red" ns0:textSize="22sp" ns0:textStyle="bold" />
+            <EditText ns0:id="@+id/etSearchProgram" ns0:layout_width="match_parent" ns0:layout_height="52dp" ns0:layout_marginTop="14dp" ns0:background="@drawable/bg_search_box" ns0:hint="@string/search_hint" ns0:paddingLeft="14dp" ns0:paddingRight="14dp" ns0:textColor="@color/gmi_black" ns0:textColorHint="@color/gmi_text_secondary" ns0:singleLine="true" ns0:inputType="text" />
+            <Button ns0:id="@+id/btnExploreCourses" ns0:layout_width="match_parent" ns0:layout_height="50dp" ns0:layout_marginTop="12dp" ns0:backgroundTint="@color/gmi_red" ns0:text="@string/view_all_programmes" ns0:textColor="@color/gmi_white" ns0:textAllCaps="false" ns0:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="vertical" ns0:padding="22dp" ns0:background="@color/page_background">
+            <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:text="@string/pathways_title" ns0:textColor="@color/gmi_black" ns0:textSize="20sp" ns0:textStyle="bold" />
+            <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="5dp" ns0:text="@string/pathways_description" ns0:textColor="@color/gmi_text_secondary" ns0:textSize="13sp" />
+            <LinearLayout ns0:id="@+id/cardDiploma" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="16dp" ns0:background="@drawable/bg_card" ns0:gravity="center_vertical" ns0:orientation="horizontal" ns0:padding="15dp" ns0:clickable="true" ns0:focusable="true">
+                <TextView ns0:layout_width="50dp" ns0:layout_height="50dp" ns0:background="@drawable/bg_program_icon" ns0:gravity="center" ns0:text="@string/diploma_icon" ns0:textColor="@color/gmi_white" ns0:textSize="23sp" />
+                <LinearLayout ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:layout_marginStart="13dp" ns0:orientation="vertical">
+                    <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/diploma_card_title" ns0:textColor="@color/gmi_navy" ns0:textStyle="bold" ns0:textSize="15sp" />
+                    <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:layout_marginTop="5dp" ns0:text="@string/diploma_card_description" ns0:textColor="@color/gmi_text_secondary" ns0:textSize="11sp" />
+                </LinearLayout>
+                <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/activity_main_text_1_text" ns0:textColor="@color/gmi_red" ns0:textSize="30sp" />
+            </LinearLayout>
+            <LinearLayout ns0:id="@+id/cardGapp" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="12dp" ns0:background="@drawable/bg_card" ns0:gravity="center_vertical" ns0:orientation="horizontal" ns0:padding="15dp" ns0:clickable="true" ns0:focusable="true">
+                <TextView ns0:layout_width="50dp" ns0:layout_height="50dp" ns0:background="@drawable/bg_program_icon" ns0:gravity="center" ns0:text="@string/gapp_icon" ns0:textColor="@color/gmi_white" ns0:textSize="23sp" />
+                <LinearLayout ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:layout_marginStart="13dp" ns0:orientation="vertical">
+                    <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/gapp_card_title" ns0:textColor="@color/gmi_navy" ns0:textStyle="bold" ns0:textSize="15sp" />
+                    <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:layout_marginTop="5dp" ns0:text="@string/gapp_card_description" ns0:textColor="@color/gmi_text_secondary" ns0:textSize="11sp" />
+                </LinearLayout>
+                <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/activity_main_text_2_text" ns0:textColor="@color/gmi_red" ns0:textSize="30sp" />
+            </LinearLayout>
+            <LinearLayout ns0:id="@+id/cardGufp" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="12dp" ns0:background="@drawable/bg_card" ns0:gravity="center_vertical" ns0:orientation="horizontal" ns0:padding="15dp" ns0:clickable="true" ns0:focusable="true">
+                <TextView ns0:layout_width="50dp" ns0:layout_height="50dp" ns0:background="@drawable/bg_program_icon" ns0:gravity="center" ns0:text="@string/gufp_icon" ns0:textColor="@color/gmi_white" ns0:textSize="23sp" />
+                <LinearLayout ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:layout_marginStart="13dp" ns0:orientation="vertical">
+                    <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/gufp_card_title" ns0:textColor="@color/gmi_navy" ns0:textStyle="bold" ns0:textSize="15sp" />
+                    <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:layout_marginTop="5dp" ns0:text="@string/gufp_card_description" ns0:textColor="@color/gmi_text_secondary" ns0:textSize="11sp" />
+                </LinearLayout>
+                <TextView ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/activity_main_text_3_text" ns0:textColor="@color/gmi_red" ns0:textSize="30sp" />
+            </LinearLayout>
+            <Button ns0:id="@+id/btnAboutGmi" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:layout_marginTop="20dp" ns0:backgroundTint="@color/gmi_navy" ns0:text="@string/about_gmi" ns0:textColor="@color/gmi_white" ns0:textStyle="bold" ns0:textSize="14sp" ns0:textAllCaps="false" />
+            <Button ns0:id="@+id/btnContactUs" ns0:layout_width="match_parent" ns0:layout_height="48dp" ns0:layout_marginTop="8dp" ns0:backgroundTint="@color/gmi_red" ns0:text="@string/contact_us" ns0:textColor="@color/gmi_white" ns0:textStyle="bold" ns0:textSize="14sp" ns0:textAllCaps="false" />
+        </LinearLayout>
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:padding="18dp" ns0:gravity="center" ns0:background="@color/gmi_black" ns0:text="@string/footer_text" ns0:textColor="@color/gmi_white" ns0:textSize="11sp" />
+    </LinearLayout>
+</ScrollView>

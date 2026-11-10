@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GMIProspect" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.GMIProspect" parent="Base.Theme.GMIProspect" />
+
+    <style name="GmiPopupTheme" parent="ThemeOverlay.AppCompat.Light">
+
+        <item name="popupMenuStyle">@style/GmiPopupMenu</item>
+
+        <item name="android:colorBackground">#FFFFFF</item>
+
+        <item name="android:textColorPrimary">#142B45</item>
+
+        <item name="colorAccent">#C8102E</item>
+
+        <item name="android:colorAccent">#C8102E</item>
+
+        <item name="colorControlHighlight">#33C8102E</item>
+
+    </style>
+
+    <style name="GmiPopupMenu" parent="Widget.AppCompat.PopupMenu">
+
+        <item name="android:popupBackground">@drawable/bg_menu_popup</item>
+
+    </style>
+
+</resources>

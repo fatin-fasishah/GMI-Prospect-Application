@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:ns0="http://schemas.android.com/apk/res/android" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="vertical" ns0:background="@drawable/bg_dialog_card" ns0:clipToOutline="true">
+    <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:background="@drawable/bg_dialog_header" ns0:orientation="vertical" ns0:padding="22dp">
+        <TextView ns0:id="@+id/tvDialogCategory" ns0:layout_width="wrap_content" ns0:layout_height="wrap_content" ns0:text="@string/dialog_programme_details_tvdialogcategory_text" ns0:textColor="#FFFFFF" ns0:textStyle="bold" ns0:textSize="11sp" ns0:letterSpacing="0.08" />
+        <TextView ns0:id="@+id/tvDialogTitle" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="12dp" ns0:text="@string/dialog_programme_details_tvdialogtitle_text" ns0:textColor="#FFFFFF" ns0:textStyle="bold" ns0:textSize="21sp" />
+        <TextView ns0:id="@+id/tvDialogDepartment" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="8dp" ns0:text="@string/dialog_programme_details_tvdialogdepartment_text" ns0:textColor="#FFFFFF" ns0:textSize="13sp" />
+    </LinearLayout>
+    <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="vertical" ns0:padding="20dp">
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:text="@string/dialog_programme_details_text_1_text" ns0:textColor="#C8102E" ns0:textStyle="bold" ns0:textSize="12sp" />
+        <TextView ns0:id="@+id/tvDialogDescription" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="9dp" ns0:text="@string/dialog_programme_details_tvdialogdescription_text" ns0:textColor="#424B57" ns0:textSize="14sp" ns0:lineSpacingExtra="4dp" />
+        <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="horizontal" ns0:layout_marginTop="20dp">
+            <LinearLayout ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:orientation="vertical" ns0:background="@drawable/bg_dialog_duration" ns0:padding="12dp" ns0:layout_marginEnd="6dp">
+                <TextView ns0:text="@string/dialog_programme_details_text_2_text" ns0:textColor="#245A9B" ns0:textStyle="bold" ns0:textSize="11sp" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" />
+                <TextView ns0:id="@+id/tvDialogDuration" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="8dp" ns0:text="@string/dialog_programme_details_tvdialogduration_text" ns0:textColor="#142B45" ns0:textStyle="bold" ns0:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout ns0:layout_width="0dp" ns0:layout_height="wrap_content" ns0:layout_weight="1" ns0:orientation="vertical" ns0:background="@drawable/bg_dialog_fee" ns0:padding="12dp" ns0:layout_marginStart="6dp">
+                <TextView ns0:text="@string/dialog_programme_details_text_3_text" ns0:textColor="#986000" ns0:textStyle="bold" ns0:textSize="11sp" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" />
+                <TextView ns0:id="@+id/tvDialogFee" ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="8dp" ns0:text="@string/dialog_programme_details_tvdialogfee_text" ns0:textColor="#704900" ns0:textStyle="bold" ns0:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:layout_marginTop="18dp" ns0:text="@string/dialog_programme_details_text_4_text" ns0:textColor="#77818F" ns0:textSize="11sp" ns0:lineSpacingExtra="3dp" />
+        <LinearLayout ns0:layout_width="match_parent" ns0:layout_height="wrap_content" ns0:orientation="horizontal" ns0:gravity="center" ns0:layout_marginTop="20dp">
+            <Button ns0:id="@+id/btnDialogClose" ns0:layout_width="0dp" ns0:layout_height="48dp" ns0:layout_weight="1" ns0:layout_marginEnd="6dp" ns0:text="@string/dialog_programme_details_btndialogclose_text" ns0:textColor="#142B45" ns0:textAllCaps="false" ns0:textStyle="bold" ns0:backgroundTint="#EAF0F7" />
+            <Button ns0:id="@+id/btnDialogWebsite" ns0:layout_width="0dp" ns0:layout_height="48dp" ns0:layout_weight="1" ns0:layout_marginStart="6dp" ns0:text="@string/dialog_programme_details_btndialogwebsite_text" ns0:textColor="#FFFFFF" ns0:textSize="12sp" ns0:textAllCaps="false" ns0:textStyle="bold" ns0:background="@drawable/bg_dialog_button" ns0:backgroundTint="@null" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

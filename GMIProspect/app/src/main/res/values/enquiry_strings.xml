@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enquiry_header">GMI PROSPECT</string>
+    <string name="about_page_subheader">ABOUT GMI</string>
+    <string name="contact_page_subheader">CONTACT US</string>
+    <string name="enquiry_subheader">ABOUT &amp; ENQUIRIES</string>
+    <string name="enquiry_back">BACK ‹</string>
+
+    <string name="enquiry_about_label">THE GMI STORY</string>
+    <string name="enquiry_about_title">About German-Malaysian Institute</string>
+    <string name="enquiry_about_description">Established in 1991, German-Malaysian Institute (GMI) provides practical and theoretical technical education, with a focus on advanced skills training and engineering education.</string>
+    <string name="enquiry_about_programmes">GMI offers full-time diploma programmes, a pre-university A-Level pathway, technical skills upgrading, train-the-trainers programmes, and industrial consultancy services.</string>
+
+    <string name="enquiry_contact_title">Contact GMI</string>
+    <string name="enquiry_contact_subtitle">Get in touch with the institute or find the campus.</string>
+    <string name="enquiry_institute_name">German-Malaysian Institute</string>
+    <string name="enquiry_address">Jalan Ilmiah, Taman Universiti,\n43000 Kajang, Selangor, Malaysia</string>
+    <string name="enquiry_phone">Telephone: +603-8921 9000 / 9191 / 9046 / 9322</string>
+    <string name="enquiry_fax">Fax: +603-8921 9001</string>
+    <string name="enquiry_email">Email: marketing@gmi.edu.my</string>
+    <string name="enquiry_call_button">CALL GMI</string>
+    <string name="enquiry_email_button">EMAIL GMI</string>
+    <string name="enquiry_map_button">VIEW CAMPUS LOCATION</string>
+
+    <string name="enquiry_form_title">Send an Enquiry</string>
+    <string name="enquiry_form_subtitle">Complete the form. Your email application will open with the enquiry details prepared for GMI.</string>
+    <string name="enquiry_name_hint">Full name *</string>
+    <string name="enquiry_email_hint">Email address *</string>
+    <string name="enquiry_phone_hint">Phone number (optional)</string>
+    <string name="enquiry_subject_hint">Enquiry subject *</string>
+    <string name="enquiry_message_hint">Write your enquiry here *</string>
+    <string name="enquiry_send_button">PREPARE EMAIL ENQUIRY</string>
+    <string name="enquiry_official_form_button">OPEN GMI OFFICIAL ENQUIRY FORM</string>
+    <string name="enquiry_footer">German-Malaysian Institute | Kajang, Selangor</string>
+
+    <string name="enquiry_email_subject">Enquiry from GMI Prospect App</string>
+    <string name="enquiry_required">This field is required.</string>
+    <string name="enquiry_valid_email">Please enter a valid email address.</string>
+    <string name="enquiry_no_email_app">No email application was found. Please use the official GMI enquiry form.</string>
+</resources>
